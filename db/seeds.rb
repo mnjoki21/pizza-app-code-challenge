@@ -1,5 +1,5 @@
 puts "seeding restuarants"
-Restaurant.create!([
+Restuarant.create!([
   {
     name: "mama oliech",
     address: "kilimani"
