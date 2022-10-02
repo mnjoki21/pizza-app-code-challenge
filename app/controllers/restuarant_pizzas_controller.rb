@@ -13,7 +13,7 @@ class RestuarantPizzasController < ApplicationController
     private
 
     def restuarant_pizza_params
-        params.permit(:pizza, :restuarant, :price)
+        params.permit(:pizza_id, :restuarant_id, :price)
         
     end
 end
