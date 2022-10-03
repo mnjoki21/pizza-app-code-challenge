@@ -62,13 +62,6 @@ Pizza.create!([
   }
 ])
 
-# Restuarant.all.each do |restuarant|
-#   rand(1..5).times do
-#     # get a random pizza
-#     pizza = Pizza.find(Pizza.pluck(:id).sample)
-
-#     RestuarantPizza.create!(restuarant_id: restuarant.id, pizza_id: pizza.id, price: rand(1..35))
-#   end
 end
 
 puts "seedy sidi cd"
