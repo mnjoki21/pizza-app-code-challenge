@@ -1,12 +1,12 @@
 class RestuarantsController < ApplicationController
-
+rescue_from ActiveRecord::RecordNotFound, with: :not_found_response
     def index
         restuarants = Restuarant.all
         render json: restuarants, include: :pizzas
     end
 
     def show
-        restuarants = Restuarant.find_by(params[:id])
+        restuarants = Restuarant.find(params[:id])
         render json: restuarants
     end
 
