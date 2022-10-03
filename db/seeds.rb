@@ -64,4 +64,14 @@ Pizza.create!([
 
 end
 
+RestaurantPizza.create(restaurant_id: restaurant1.id, pizza_id: pizza4.id, price: 19)
+RestaurantPizza.create(restaurant_id: restaurant4.id, pizza_id: pizza3.id, price: 14)
+RestaurantPizza.create(restaurant_id: restaurant2.id, pizza_id: pizza4.id, price: 20)
+RestaurantPizza.create(restaurant_id: restaurant3.id, pizza_id: pizza2.id, price: 25)
+RestaurantPizza.create(restaurant_id: restaurant4.id, pizza_id: pizza3.id, price: 30)
+RestaurantPizza.create(restaurant_id: restaurant1.id, pizza_id: pizza5.id, price: 29)
+RestaurantPizza.create(restaurant_id: restaurant4.id, pizza_id: pizza4.id, price: 26)
+
+
+
 puts "seedy sidi cd"
