@@ -14,13 +14,9 @@ pizza5 = Pizza.create(name: "BBQ Chicken",ingredients: "Chicken, bbq sauce, chee
 pizza6 = Pizza.create(name: "Boerwors",ingredients: "Beef mince, tomato, onion")
 pizza7 = Pizza.create(name: "Meat Deluxe",ingredients: "Beef , chicken, cheese")
 
-Restuarant.create(restuarant_id: restuarant1.id, pizza_id: pizza4.id, price: 19)
-Restuarant.create(restuarant_id: restuarant4.id, pizza_id: pizza3.id, price: 14)
-Restuarant.create(restuarant_id: restuarant2.id, pizza_id: pizza4.id, price: 20)
-Restuarant.create(restuarant_id: restuarant3.id, pizza_id: pizza2.id, price: 25)
-Restuarant.create(restuarant_id: restuarant4.id, pizza_id: pizza3.id, price: 30)
-Restuarant.create(restuarant_id: restuarant1.id, pizza_id: pizza5.id, price: 29)
-Restuarant.create(restuarant_id: restuarant4.id, pizza_id: pizza4.id, price: 26)
-
+restaurant_pizza1 = RestuarantPizza.create(restuarant_id:1, pizza_id:2, price: 10)
+restaurant_pizza2 = RestuarantPizza.create(restuarant_id:2, pizza_id:2, price: 11)
+restaurant_pizza3 = RestuarantPizza.create(restuarant_id:1, pizza_id:3, price: 20)
+restaurant_pizza4 =  RestuarantPizza.create(restuarant_id:4, pizza_id:2, price: 16)
 
 puts "seedy sidi cd"
