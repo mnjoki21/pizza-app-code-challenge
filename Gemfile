@@ -20,6 +20,8 @@ gem "puma", "~> 5.0"
 
 gem "byebug"
 
+gem 'sinatra-contrib', '~> 2.2', '>= 2.2.2',require: false
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
